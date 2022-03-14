@@ -9,6 +9,6 @@ RUN chmod +x snowsql-1.2.21-linux_x86_64.bash
 RUN SNOWSQL_DEST=~/bin SNOWSQL_LOGIN_SHELL=~/.profile bash snowsql-1.2.21-linux_x86_64.bash
 ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8
-RUN wget https://dl.minio.io/server/minio/release/linux-amd64/minio
-RUN chmod +x minio
-RUN mv minio /bin
+RUN wget https://dl.min.io/client/mc/release/linux-amd64/mc
+RUN chmod +x mc
+RUN mv mc /bin
